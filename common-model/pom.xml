@@ -9,18 +9,6 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>private-manager-dal</artifactId>
-
-    <name>private-manager-dal</name>
-
-    <packaging>jar</packaging>
-
-    <dependencies>
-        <dependency>
-            <groupId>cn.com.immortals</groupId>
-            <artifactId>common-model</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-    </dependencies>
+    <artifactId>common-model</artifactId>
 
 </project>

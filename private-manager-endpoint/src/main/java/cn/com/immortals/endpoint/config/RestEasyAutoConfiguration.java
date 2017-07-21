@@ -14,6 +14,11 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.Ordered;
 
+
+/**
+ * @author Immortals.
+ * @version 1.0.0
+ */
 @ConditionalOnClass(ResteasyHandlerMapping.class)
 @EnableConfigurationProperties
 @Configuration

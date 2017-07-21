@@ -12,6 +12,18 @@
     <artifactId>private-manager-endpoint</artifactId>
 
     <name>private manager endpoint</name>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
     <packaging>jar</packaging>
 
@@ -21,23 +33,6 @@
             <artifactId>private-manager-biz</artifactId>
             <version>${project.version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.jboss.resteasy</groupId>
-            <artifactId>resteasy-jaxrs</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.jboss.resteasy</groupId>
-            <artifactId>resteasy-multipart-provider</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.jboss.resteasy</groupId>
-            <artifactId>resteasy-spring</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
     </dependencies>
 
 </project>

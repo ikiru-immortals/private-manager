@@ -1,4 +1,4 @@
-package cn.com.immortals.model;
+package cn.com.immortals.model.model;
 
 /**
  * @author Immortals.
